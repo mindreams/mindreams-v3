@@ -1,0 +1,61 @@
+/* Box shadow for Navbar */
+.custom-shadow {
+  box-shadow: 0px 3px 3px 0px rgba(61, 46, 46, 0.53);
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.53);
+}
+
+.service-cart-shadow {
+  box-shadow: 0px 0px 20px 0px #2f318333;
+}
+
+/* Custom background color */
+.gradient-background {
+  background-image: linear-gradient(94.24deg, #f04238 7.77%, #4d5fea 96.37%);
+}
+
+
+/* Custom text color */
+.gradient-text , .custom-gradient-text:hover , button:hover {
+  background-image: linear-gradient(91.06deg, #f14238 8.3%, #4e60eb 82.53%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Custom border color */
+.custom-gradient-border {
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(94.24deg, #f04238 7.77%, #4d5fea 96.37%);
+  border-radius: 10px;
+}
+
+/* Custom class for gradient border on hover */
+.border-bottom-gradient {
+  position: relative;
+  overflow: hidden;
+}
+
+.border-bottom-gradient::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(94deg, #f04238 7.77%, #4d5fea 96.37%);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.border-bottom-gradient:hover::after {
+  transform: scaleX(1);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
