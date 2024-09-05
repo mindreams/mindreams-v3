@@ -36,12 +36,13 @@ html {
 h1 {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.4px;
-  
+  font-weight: 700;
 }
 
 h2{
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.2px;
+  font-weight: 600;
 }
 
 /* Apply Lora font to all p elements */
@@ -51,10 +52,18 @@ p {
   letter-spacing: 0.2px;
 }
 
-/* Apply Poppins font to all button and a elements */
-button, a {
+/* Apply Poppins font for poppins-700 and poppins-400 classname  */
+.poppins-700 , a {
   font-family: 'Poppins', sans-serif; 
   letter-spacing: 0.2px;
+  font-weight: 700;
+}
+
+.poppins-400 {
+  font-family: 'Poppins', serif;
+  word-spacing: 1.5px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
 }
 
 /* Letter space and Word space for address elements*/

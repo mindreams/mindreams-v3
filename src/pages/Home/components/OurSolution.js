@@ -5,7 +5,7 @@ import cart_icon from "../../../assets/images/cart_icon.png"
 const OurSolution = () => {
   return (
     <section id='solution'>
-      <div className='flex flex-col items-center justify-center md:py-20 sm:py-16 py-12 bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 px-6'>
+      <div className='flex flex-col items-center justify-center md:py-16 sm:py-12 py-10 bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 px-6'>
         <h1 className='text-white text-[40px] md:mb-12'>Our Solutions</h1>
         <div className='flex flex-col md:flex-row items-center mt-5 justify-between gap-12 w-full max-w-5xl'>
           <div className='flex flex-col items-center text-center w-full md:w-1/2 sm:py-8 py-6 lg:px-8 '>

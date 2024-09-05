@@ -16,8 +16,8 @@ const WhyUsCart = ({ icon, paragraph, heading }) => {
         </h2>
       </div>
       <div className='flex flex-col mt-3 sm:mt-0 text-white justify-center'>
-        <h1 className='text-xl my-2 sm:flex hidden'>{heading}</h1>
-        <p className='tracking-wide text-[14px] sm:text-[15px] font-medium leading-loose'>
+        <h2 className='text-xl my-2 sm:flex hidden'>{heading}</h2>
+        <p className='poppins-400 tracking-wide text-[14px] sm:text-[15px] font-medium leading-loose'>
           {paragraph}
         </p>
       </div>

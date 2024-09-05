@@ -1,4 +1,4 @@
-const smoothScroll = (offset = 98) => {
+const smoothScroll = (offset = 78) => {
   // Handle URL fragment identifiers
   const hash = window.location.hash
   console.log(hash)
