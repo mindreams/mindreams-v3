@@ -21,12 +21,8 @@ const OurSolution = () => {
             </h1>
             <p className='text-white'>
               Our E-commerce development services can help you build an online
-              store that drives sales and revenue.We have experience with
-              various e-commerce platforms and we can help you choose the best
-              for your business.We know that having a fast, secure and scalable
-              hosting solution is vital for your eCommerce platform. That's why
-              our cloud experts work with eCommerce companies to help you
-              deliver a seamless experience for your customers.
+              store that drives sales and revenue. We know that having a fast, secure and scalable
+              eCommerce solution is vital for your business.
             </p>
           </div>
           {/* Diveder */}

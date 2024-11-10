@@ -7,8 +7,8 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <div className=' custom-shadow sticky top-0 z-10  bg-[#ededf0] '>
-      <div className='flex justify-around items-center py-4 '>
+    <div className=' custom-shadow sticky top-0 z-10  bg-[#ffffff] border-b-[1px] border-[#ddd]'>
+      <div className='flex justify-between items-center py-4 px-4'>
         <Link
           to='/'
           className='md:h-[50px] md:w-[250px] sm:h-[45px] sm:w-[200px] h-[35px] w-[180px] flex items-center justify-center'>
@@ -24,12 +24,12 @@ const Navbar = () => {
           <a
             href='#service'
             className='custom-gradient-text poppins-700 text-[17px] px-2 mx-2 py-2 border-bottom-gradient '>
-            Service
+            Services
           </a>
           <a
             href='#solution'
             className='custom-gradient-text poppins-700 text-[17px] px-2 mx-2 py-2 border-bottom-gradient'>
-            Solution
+            Solutions
           </a>
         </div>
 
@@ -54,7 +54,7 @@ const Navbar = () => {
         </button>
 
         <div
-          className={`absolute md:hidden bg-[#ededf0] py-4 custom-shadow top-[67px] flex flex-col w-full items-center gap-6 font-semibold text-lg transform transition-transform ${
+          className={`absolute md:hidden bg-[#ffffff] py-4 custom-shadow top-[67px] flex flex-col w-full items-center gap-6 font-semibold text-lg transform transition-transform ${
             isMenuOpen ? "block" : "hidden"
           } `}
           style={{ transition: "transform 0.3s  ease, opacity 0.3s ease " }}>
@@ -69,22 +69,22 @@ const Navbar = () => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className='list-none gradient-text w-full text-center transition-all cursor-pointer  '>
             <a href='#service' className='gradient-text'>
-              Service
+              Services
             </a>
           </li>
           <li
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className='list-none gradient-text w-full text-center transition-all cursor-pointer  '>
             <a href='#solution' className='gradient-text'>
-              Solution
+              Solutions
             </a>
           </li>
           <li
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className='list-none gradient-text w-full text-center transition-all cursor-pointer  '>
-            <Link className='gradient-text' to='/contact'>
-              Contact
-            </Link>
+            <a href='#contact-us' className='gradient-text'>
+              Contact Us
+            </a>
           </li>
         </div>
       </div>

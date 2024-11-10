@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text on Left, Image on Right</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .text {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .image {
+            flex: 1;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="text">
+            <h1>Your Text Goes Here</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum libero et risus dapibus, id luctus libero tincidunt. Vivamus eu neque auctor, feugiat metus vel, tincidunt massa.</p>
+        </div>
+        <div class="image">
+            <img src="we_build.png" alt="Your Image">
+        </div>
+    </div>
+</body>
+</html>
