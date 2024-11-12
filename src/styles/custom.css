@@ -1,0 +1,112 @@
+/* Box shadow for Navbar */
+.custom-shadow {
+  box-shadow: 0px 3px 3px 0px rgba(61, 46, 46, 0.53);
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.53);
+}
+
+.service-cart-shadow , .service-cart-shadow:hover {
+  box-shadow: 0px 0px 20px 0px #2f318333;
+}
+
+/* Custom background color */
+.gradient-background {
+  background-image: linear-gradient(94.24deg, #f04238 7.77%, #4d5fea 96.37%);
+}
+
+
+/* Custom text color */
+.gradient-text , .custom-gradient-text:hover , button:hover {
+  background-image: linear-gradient(91.06deg, #f14238 8.3%, #4e60eb 82.53%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Custom border color */
+.custom-gradient-border {
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(94.24deg, #f04238 7.77%, #4d5fea 96.37%);
+  border-radius: 10px;
+}
+
+/* Custom class for gradient border on hover */
+.border-bottom-gradient {
+  position: relative;
+  overflow: hidden;
+}
+
+.border-bottom-gradient::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(94deg, #f04238 7.77%, #4d5fea 96.37%);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.border-bottom-gradient:hover::after {
+  transform: scaleX(1);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.navbar-toggler {
+  position: relative;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: 0;
+}
+
+.navbar-toggler span {
+  display: block;
+  background-color: #000000;
+  height: 3px;
+  width: 25px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  left: 0;
+  opacity: 1;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+  transition: -webkit-transform 0.35s ease-in-out;
+  transition: transform 0.35s ease-in-out;
+  transition: transform 0.35s ease-in-out, -webkit-transform 0.35s ease-in-out;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  opacity: 0.9;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  height: 12px;
+  visibility: hidden;
+  background-color: transparent;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  opacity: 0.9;
+}
