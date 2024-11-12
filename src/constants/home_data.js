@@ -16,7 +16,7 @@ export const WHY_US_DATA = [
   },
   {
     icon: doller_badge,
-    heading: "Fair and competitive pricing, with no concealed fees or charges.",
+    heading: "Fair and competitive pricing, with no concealed fees or charges",
     paragraph:
       "Offering competitive and transparent pricing, devoid of hidden charges, is integral to our commitment to fairness and client satisfaction. We believe in providing clear, upfront pricing structures that reflect the value and quality of our services.",
   },

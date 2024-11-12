@@ -3,7 +3,7 @@ import React from "react"
 const WhyUsCart = ({ icon, paragraph, heading }) => {
   return (
     <div className='flex sm:flex-row flex-col items-start sm:gap-10 sm:px-0 px-6 py-8 '>
-      <div className='flex gap-5 sm:flex-none'>
+      <div className='flex gap-5 sm:flex-none items-center'>
         <div className='flex items-center justify-center rounded-[20px] bg-white shadow-md w-[90px] h-[80px] sm:w-[140px] sm:h-[140px]'>
           <img
             src={icon}

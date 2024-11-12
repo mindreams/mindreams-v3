@@ -34,20 +34,20 @@ html {
 
 /* Apply Montserrat font to all h1 elements */
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif; 
   letter-spacing: 0.4px;
   font-weight: 700;
 }
 
 h2{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif; 
   letter-spacing: 0.2px;
   font-weight: 600;
 }
 
 /* Apply Lora font to all p elements */
 p {
-  font-family: 'Lora', serif;
+  font-family: 'Poppins', sans-serif;
   word-spacing: 1.5px;
   letter-spacing: 0.2px;
 }
