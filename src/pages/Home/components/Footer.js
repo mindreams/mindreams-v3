@@ -37,7 +37,6 @@ const Footer = () => {
             <div className='mb-1'>Mindreams Infotech</div>
             <div className='mb-1'>S-2213, Ardente Office One, 2nd Tower,</div>
             <div className='mb-1'>Hoodi Circle, Bangalore, 560048.</div>
-            <div>560102</div>
           </address>
           <div className='flex flex-col pt-7 space-y-4'>
             <h1 className=''>
