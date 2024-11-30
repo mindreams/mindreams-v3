@@ -2,7 +2,7 @@ import React from "react"
 
 const ServiceCart = ({ icon, heading, bg, paragraph }) => {
   return (
-    <div className='sm:w-[340px] sm:h-[260px] w-[300px] h-[250px] service-cart-shadow p-4 rounded-[20px] bg-[#FFFFFF] transition-transform duration-300 transform hover:scale-105 shadow-md hover:shadow-xl'>
+    <div className='sm:w-[340px] lg:w-[320px] sm:h-[250px] w-[300px] h-[265px] lg:h-[250px] service-cart-shadow p-4 rounded-[20px] bg-[#FFFFFF] transition-transform duration-300 transform hover:scale-105 shadow-md hover:shadow-xl'>
       <div
         className={`h-12 w-12 flex items-center justify-center rounded-[50%] ${bg}`}>
         <img src={icon} alt='' className='' />
