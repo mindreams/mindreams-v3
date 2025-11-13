@@ -35,8 +35,9 @@ const Footer = () => {
           </h1>
           <address className='leading-relaxed'>
             <div className='mb-1'>Mindreams Infotech</div>
-            <div className='mb-1'>S-2213, Ardente Office One, 2nd Tower,</div>
-            <div className='mb-1'>Hoodi Circle, Bangalore, 560048.</div>
+            <div className='mb-1'>46/4, Novel Tech Park, Ground Floor,</div>
+            <div className='mb-1'>Garvebhavi Palya, Kudlu Gate,</div>
+            <div className='mb-1'>Bangalore, Karnataka, Postal Code: 560068.</div>
           </address>
           <div className='flex flex-col pt-7 space-y-4'>
             <h1 className=''>
@@ -51,7 +52,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='bg-[#161734] py-4 w-full text-white lg:px-[10%] sm:px-[5%] px-[3%]'>
-        <p> &copy; 2024 Mindreams Infotech</p>
+        <p> &copy; 2025 Mindreams Infotech</p>
       </div>
     </div>
   )
